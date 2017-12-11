@@ -35,6 +35,14 @@ con = 0.5 * (con + con.T)
 plt.scatter(X[:, 0], X[:, 1], s=10, c=y_predicted, cmap=ListedColormap(['#377eb8', '#ff7f00', '#4daf4a']))
 ```
 
+Перед обучением центрируйте данные:
+
+```
+from sklearn.preprocessing import StandardScaler
+
+X = StandardScaler().fit_transform(X) # вычитает среднее и делит на дисперсию
+```
+
 Результат для окружностей:
 
 ![example](scatters.png)
