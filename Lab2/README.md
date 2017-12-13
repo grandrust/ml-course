@@ -31,7 +31,7 @@
 
 ### Precision
 
-Для предсказанных меток вычислите [`precision`](https://en.wikipedia.org/wiki/Precision_and_recall#Definition_(classification_context&#41;) (точность) метрику. Используйте формулу из wiki.
+Для предсказанных меток вычислите [`precision`](https://en.wikipedia.org/wiki/Precision_and_recall#Definition_&#40;classification_context&#41; ) (точность) метрику. Используйте формулу из wiki.
 Округлите результат до 4го знака после запятой - первый ответ.
 
 Сравните свой результат с результатом соответсвующего метода из `sklearn.metrics` (там есть и другие, которые придется использовать позже).
